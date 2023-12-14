@@ -16,3 +16,41 @@ Error Handling
 HTTPs
 Tree Shaking - remove unused code
 Different dev and prod bundles
+
+
+*Header
+  -Logo
+  -Nav Items
+*Body
+  -Search
+  -RestaurantContainer
+   -RestaurantCard
+     -Img
+     - Name of Res, star Rating, cuisine, Delivery Time
+*Footer
+ -Copyright
+ -Links
+ - Address
+  -Contact
+  *
+
+
+
+  Two types of Export/Imports
+
+  - Default  Export/Import
+
+  export default Components;
+  import Components from "path";
+
+
+    - Named  Export/Import
+
+    export const Components;
+    import {Components} from "path";
+
+    -  React Hooks
+      (Normal JS utility functions)
+
+    * useState() - Superpowerful State Variables in react
+    * useEffect()
